@@ -1,0 +1,195 @@
+.people{
+    background-color: rgb(227, 220, 221);
+    width: 15%;
+    height: 142vh;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.people ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.people li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.people img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.people span {
+    display: block;
+    font-size: 18px;
+    color: #181717;
+    margin-top: 5px;
+}
+
+.people span1 {
+    font-size: 13px;
+    color: gray;
+}
+
+.chat{
+    background-color: rgb(202, 202, 202);
+    width: 85%;
+    height: 0vh;
+    float: right;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+}
+.form-label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    margin-right: 220px;
+    margin-left: 100px;
+}
+
+.post{
+    background-color: aliceblue;
+    width: 100%;
+	overflow: hidden;
+    margin-top: 20px;
+}
+.pic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+}
+.pic{
+	float: left;
+	width: 15%;
+	height: 500px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.text{
+	float: left;
+	width: 85%;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.react{
+    margin-top: 10px;
+    background-color: aliceblue;
+    padding: 0px;
+}
+.react button{
+    margin-left: 500px;
+}
+.post-box{
+	width: 1290px;
+    height: 300px;
+	margin: 50px auto;
+	background: aliceblue;
+	color: #000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.post-box h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.post-textarea{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 2px solid #eee;
+	resize: none;
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.file-input-label:hover {
+    background-color: #444444;
+}
+
+.file-input-label span {
+    margin-left: 5px;
+}
+
+.fa-paperclip {
+    margin-left: 5px;
+}
+
+.selected-files {
+    margin-bottom: 10px;
+}
+
+.selected-files span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.post-button{
+	background-color: #000000;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.post-button:hover{
+	background-color: #444444;
+}
+
+.but{
+    background-color: #000000;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}

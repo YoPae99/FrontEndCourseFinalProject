@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./jane-utochkina-0GrtD_9WnPU-unsplash.jpg);
+}
+
+.password-reset-box{
+	width: 320px;
+	height: 350px;
+	background: #80D2F2;
+	color: #000000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 10px 30px;
+    border: #80D2F2 1px solid;
+    border-radius: 5%;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+input[type="text"]{
+	width: 100%;
+	margin-bottom: 20px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+	outline: none;
+	height: 40px;
+	color: #000000;
+	font-size: 16px;
+}
+
+input[type="button"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+    border: #000000 1px solid;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+input[type="button"]:hover{
+	color: #076aff;
+	transition: 0.5s;
+}
+
+a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+a:hover{
+	color: #076aff;
+}
+
+.error-message {
+	color: red;
+	font-size: 19px;
+	margin-top: 5px;
+	text-align: center;
+}
+img{
+    width: 70px;
+    height: 80px;
+    margin-left: 90px;
+}

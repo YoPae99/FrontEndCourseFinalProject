@@ -1,0 +1,254 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.yoyo{
+  margin-left: 155px;
+  margin-top: 10%;
+  
+}
+.month {
+  
+  text-align: center;
+  text-decoration: rgb(170, 120, 47);
+  font-weight: bolder;
+  
+  
+}
+
+.bgimg{
+  background-image: url(https://i0.wp.com/tonyeducation.com/wp-content/uploads/2020/07/Asia-Pacific-International-University-feature-img.jpg?fit=1024%2C538&ssl=1);
+  background-size: cover;
+  padding: 80px 50px;
+  background-color: #1abc9c;
+  
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: rgb(31, 2, 2);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fbff25;
+  
+}
+
+.month .prev {
+  float: left;
+  padding-top: 0;
+}
+
+.month .next {
+  float: right;
+  padding-top: 0;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12.4%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  width: 100%;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+.bobo{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.Card { 
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  width: 800px;
+  margin-left: 20%;
+}
+
+.cardimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.caption h3 {
+  margin-top: 0;
+}
+
+.caption p {
+  margin-bottom: 0;
+}
+
+.read-more-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more-button:hover {
+  background-color: #0069d9;
+}
+
+.slide-nav {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.ball-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.ball-icon.active {
+  background-color: #007bff;
+}
+body{
+    background-color: rgb(233, 228, 228);
+}
+
+/* SAr pite */
+.sarpite{
+  color: white;
+  background-color: #2b2424;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(to right, #5385c2, rgb(73, 70, 64), rgb(46, 14, 14));
+}
+.sarpite2{
+  color: white;
+  background-color: #2b2424;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(to right, #0069d9, red, rgb(46, 14, 14));
+}
+.logbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .logout-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .logout-btn:hover {
+    background-color: #484747;
+  }
+  
+  .profile span {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  span{
+    color: #333;
+    margin-right: 1300px;
+  }
+  h2{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 7%;
+    color: rgb(53, 53, 138);
+  }
